@@ -6,6 +6,6 @@ Czym się cechuje?
 - tylko tryb ciemny (nie oślepi cie w nocy)
 - minimalizm (mało elementów które by rozpraszały)
 
->>> https://artix.midway.ovh/
+ >>> https://artix.midway.ovh/
 # Copyright
 Strona jest chronioną licencją >> https://artix.midway.ovh/LICENSE
