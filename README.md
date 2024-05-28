@@ -1,4 +1,4 @@
-<div align="center"><img src="ARTIX-big.png"></div>
+<div align="center"><img src="https://resources.midway.ovh/own/start-search.tiff"></div>
 
 # Twoja nowa strona startowa
 Czym się cechuje?
@@ -7,6 +7,6 @@ Czym się cechuje?
 - tylko tryb ciemny (nie oślepi cie w nocy)
 - minimalizm (mało elementów które by rozpraszały)
 
-Link >>> https://artix.midway.ovh/
+Link >>> https://search.midway.ovh/
 # Copyright
-Strona jest chronioną licencją >> https://artix.midway.ovh/LICENSE
+Strona jest chronioną licencją >> https://search.midway.ovh/LICENSE
