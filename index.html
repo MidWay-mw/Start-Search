@@ -4,49 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <link rel="shortcut icon" href="ARTIX-small.png">
-    <link rel="apple-touch-icon" href="ARTIX-small.png">
+    <link rel="shortcut icon" href="search.png">
+    <link rel="apple-touch-icon" href="search.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="https://artix.midway.ovh/">
-    <meta property="og:title" content="༼ つ ◕_◕ ༽つ | ARTIX Search">
+    <meta property="og:url" content="https://search.midway.ovh/">
+    <meta property="og:title" content="༼ つ ◕_◕ ༽つ | Start Search">
     <meta name="theme-color" content="#7d63ff">
-    <meta property="og:description" content="ᶘᵒᴥᵒᶅ  Twoja nowa strona startowa.">
+    <meta property="og:description" content="ᶘᵒᴥᵒᶅ  Twoja nowa strona startowa. #&10;Zacznij szukać.">
     <meta name="robots" content="index, follow">
-    <meta property="og:image" content="https://artix.midway.ovh/ARTIX-big.png">
+    <meta property="og:image" content="https://resources.midway.ovh/own/start-search.tiff">
     <link rel="stylesheet" href="style.css">
-    <title>ARTIX Search</title>
+    <title>Start Search</title>
 </head>
 <body>
-  <div id="relative">
-    <div id="search-container">
-      <img src="ARTIX-big.png" draggable="false" id="header">
-        <form id="searchForm" onsubmit="return performSearch()">
-            <input type="text" id="searchInput" name="q" placeholder="Wyszukaj...">
-            <button type="submit"><img src="search.png" id="search" draggable="false"></button>
-        </form>
+    <div id="relative">
+        <div id="search-container">
+            <img src="https://resources.midway.ovh/own/start-search.tiff" draggable="false" id="header">
+            <form id="searchForm" onsubmit="performSearch(event)">
+                <input type="text" id="searchInput" name="q" placeholder="Wyszukaj..." autocomplete="off">
+                <button type="submit"><img src="search.png" id="search" draggable="false"></button>
+            </form>
+        </div>
+        <button id="help" onclick="openNotification()">?</button>
+        <div class="context"></div>
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="overlay" id="overlay">
+            <div class="notification" id="notification">
+                <br> Ustaw sobie tę strone jako startową gdy uruchamiasz przeglądarkę.<br><br>PC: Ustawienia > Po uruchomieniu > Otwórz konkretną strone... > wpisz link do tej strony<br><br>Android: Ustawienia > Strona główna > Wpisz niestandardowy adres... > wpisz link do tej strony<br><br>(Nie jest to pełnoprawna wyszukiwarka a tylko strona startowa)
+                <button onclick="closeNotification()" id="close">X</button>
+            </div>
+        </div>
+        <a href="/LICENSE" id="footer">Copyright (©) 2024 START SEARCH</a>
     </div>
-    <button id="help" onclick="openNotification()">?</button>
-    <div class="context">
+    <div id="animation">
+      <div id="dots">
+        <div class="dot" id="dot1"></div>
+        <div class="dot" id="dot2"></div>
+        <div class="dot" id="dot3"></div>
+      </div>
+      <h1>MIDWAY</h1>
     </div>
-      <ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <div class="overlay" id="overlay">
-        <div class="notification" id="notification">
-            <br> Ustaw sobie tę strone jako startową gdy uruchamiasz przeglądarkę.<br><br>PC: Ustawienia > Po uruchomieniu > Otwórz konkretną strone... > wpisz link do tej strony<br><br>Android: Ustawienia > Strona główna > Wpisz niestandardowy adres... > wpisz link do tej strony<br><br>(Nie jest to pełnoprawna wyszukiwarka a tylko strona startowa)
-            <button onclick="closeNotification()" id="close">X</button>
-        </div></div>
-          <a href="/LICENSE" id="footer">Copyright (©) 2024 ARTIX SEARCH</a>
-      <script src="https://resources.midway.ovh/own/return.js" defer></script>
+
+    <script src="https://resources.midway.ovh/own/return.js" defer></script>
     <script src="script.js"></script>
 </body>
 </html>
