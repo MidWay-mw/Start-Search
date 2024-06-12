@@ -1,10 +1,10 @@
 function performSearch(event) {
     event.preventDefault();
 
-    var searchInput = document.getElementById('searchInput').value;
-    var searchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(searchInput);
+    const searchInput = document.getElementById('searchInput').value;
+    let searchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(searchInput);
 
-    var animationDiv = document.getElementById('animation');
+    const animationDiv = document.getElementById('animation');
     animationDiv.style.display = 'flex';
     setTimeout(function() {
         window.location.href = searchUrl;
@@ -26,12 +26,12 @@ function closeNotification() {
 
 
 function runAnimation() {
-  var dot1 = document.getElementById('dot1');
-  var dot2 = document.getElementById('dot2');
-  var dot3 = document.getElementById('dot3');
-  var scale = 4;
-  var originalScale = 1; 
-  var duration = 500;
+  const dot1 = document.getElementById('dot1');
+  const dot2 = document.getElementById('dot2');
+  const dot3 = document.getElementById('dot3');
+  const scale = 4;
+  const originalScale = 1; 
+  const duration = 500;
   
   function animateDot1() {
     dot1.style.transform = 'scaleY(' + scale + ')';
