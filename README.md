@@ -1,12 +1,31 @@
-<div align="center"><img src="https://resources.midway.ovh/own/start-search.tiff"></div>
+# W tym miejscu wkrótce będzie wiki dla strony https://search.midway.ovh/
+↪ Na samym dole znajduje sie Changelog dla najnowszych aktualizacji
 
-# Twoja nowa strona startowa
+Chcesz być na bieżąco z przyszłymi aktualizacjami?
+Obserwuj liste na trello [link](https://trello.com/b/fAOlX6zg/midway)
+
+# Twoja nowa strona startowa Start Search
 Czym się cechuje?
-- estetyką
-- animowane tło
-- tylko tryb ciemny (nie oślepi cie w nocy)
-- minimalizm (mało elementów które by rozpraszały)
+- Estetyką
+- Animowane tło
+- Ciemny wygląd zamiast nie przyjemnych dla oczu jasnych motywów
+- Minimalizm
+- Dużo wyszukiwarek do wyboru
 
 Link >>> https://search.midway.ovh/
-# Copyright
-Strona jest chronioną licencją >> https://search.midway.ovh/LICENSE
+> [!IMPORTANT]\
+> **Copyright**
+> 
+> Strona jest chronioną licencją >> https://search.midway.ovh/LICENSE.md
+
+# Changelog ( max. 3 ostatnie wersje )
+> [!Note]\
+>  **Update v1.0**  – Data: (Jeszcze nie wydano)
+> - Rozpoczęto numeracje aktualizacji
+> - Zmieniony wygląd
+> - Większa możliwość konfiguracji pod siebie
+> - Miejsce do zgłaszania błędów i wiki
+> - Szybkie skróty w wersji context menu (pod prawym przyciskiem myszy)
+> - Funkcje zapisujące sie w Cookies
+> - Większe wsparcie
+> - Kod strony został wyniesiony na oddzielne prywatne Repo w celu większej ochrony kodu przed kradzieżą
