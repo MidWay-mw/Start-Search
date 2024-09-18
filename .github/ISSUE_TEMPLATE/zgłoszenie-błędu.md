@@ -2,7 +2,7 @@
 name: Zgłoszenie błędu
 about: Wypełnij poniższe informacje w celu ułatwienia naprawy
 title: Błąd
-labels: bug
+labels: Błąd
 assignees: Coreli0
 
 ---
